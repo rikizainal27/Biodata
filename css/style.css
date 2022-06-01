@@ -1,0 +1,206 @@
+  
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/icons.woff2') format('woff2');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-weight: 100 700;
+  src: url('/font/icons_outline.woff2') format('woff2');
+}
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('/font/Poppins-Bold.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('/font/Poppins-Regular.ttf')
+}
+/* css reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
+}
+button:focus {
+  outline: 5px auto;
+  outline-color: #BCBDC1;
+}
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #758292;
+  box-sizing: border-box;
+  font-family: 'Poppins Regular';
+  scroll-behavior: smooth;
+  /* border: .3px solid black; */
+}
+body {
+  background-color: rgb(241 245 249);
+  display: grid;
+  justify-content: center;
+  background-color: #000;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241 245 249);
+  overflow: hidden
+}
+/* navbar style */
+.navbar {
+  position: fixed;
+  top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+.nav-top {
+  width: 320px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+}
+.nav-top .first,
+.last {
+  font-family: 'Poppins Bold';
+  margin-right: 5px;
+}
+.last {
+  color: #0aa5a9;
+}
+.navigation {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.navigation .icon {
+  color: #758292;
+  padding: 4px 10px;
+}
+.navigation .material-icons {
+  color: #0aa5a9;
+  border-bottom: 2px solid #0aa5a9;
+}
+.navigation .material-symbols-rounded {
+  font-size: 30px;
+}
+.nav-right i {
+  font-size: 24px;
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 180px;
+  padding-left:2.5em 
+}
+.greeting {
+  font-family: 'Poppins Bold';
+  color: #0aa5a9;
+  font-size: 1.3em;
+}
+.name {
+  font-family: 'Poppins Bold';
+  font-size: 1.5em;
+  color: rgb(51 65 85);
+}
+blockquote span {
+  color: #0aa5a9;
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #0aa5a9;
+  color: white;
+}
+@font-face {
+  font-family: 'Icons';
+  src: url('/font/spck-ui-icons.woff2') format('woff2');
+}
+.spck {
+  font-family: 'Icons';
+}
+.skil img{
+  display: inline-block;
+}
