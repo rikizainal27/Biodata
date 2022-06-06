@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/icons.woff2') format('woff2');
+  }
+
+.material-icons {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;/* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: 'Material Icons';
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+  /* fallback */
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/icons_outline.woff2') format('woff2');
+}
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  }
+@font-face {
+   font-family: 'NotoSans Black';
+   src: url('/NunitoSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'NotoSans Regular';
+   src: url('/NunitoSans-Regular.ttf') format('truetype');
+}
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'NotoSans Regular';
+   box-sizing: border-box;
+   /* border: 1px solid #000; */
+}
+html{scroll-behavior: smooth;}
+body{background-color: #1A1E27;}
+nav{
+   width: 100vw;
+   position: fixed;
+   top: 0;
+   background-color: #191F2C;
+   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0);
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+   z-index: 1;
+}
+.nav-1{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px;
+}
+.satu, .dua{font-size: 18px;font-family: 'NotoSans Black';}
+.satu{color: #A4B5C5}
+.dua{color: #13B8A7;margin-left: 5px;}
+.navigation{
+   height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.navigation a{color: #758292;}
+.navigation .icon{padding: 10px 18px;}
+.navigation .material-icons{color: #13B8A7;border-bottom: 2px solid #13B8A7;}
+.pertama{display: none;}
+.nav-2 i{font-size: 22px;color: #758292;}
+.konten{width: 100vw;margin-top: 1em;}
+.perkenalan{width: 100%;padding: 9em 2em 2em 2em;}
+.perkenalan img{width: 19em;}
+.hubungi{
+   width: 9em;
+   height: 2em;
+   position: absolute;
+   background-color: #13b8a7;
+   border-radius: 2em;
+   text-align: center;
+   line-height: 2em;
+}
+.hubungi a{font-size: 13px;color: #fff;}
+.sapaan{font-size: 1em;color: #13b8a7;}
+.nama{color: #C9D5E1;font-size: 30px;font-family: 'NotoSans Black';}
+.nama span, blockquote span{color: #0aa5a9;font-family: inherit;}
+blockquote, p{color: #657487;padding-bottom: 2em;}
+section{padding: 6.5em 2em 2em 2em;}
+.paragraf-1{margin-bottom: 25px;}
+.paragraf-1 .sub-judul{font-size: 30px;}
+.paragraf-2 h1{color: #C9D5E1}
+.judul{
+   font-size: 1.2em;
+   color: #13B8A7;
+   margin-top: 1.5em;
+}
+.sub-judul{color: #C9D5E1;font-family: 'NotoSans Black';}
+a{text-decoration: none;}
+.sosial-media {
+   width: 20em;
+   display: flex;
+   justify-content: space-between;
+   margin: 1em auto;
+   padding: 1em;
+}
+.sosial-media .material-icons{font-size: 40px;}
+.sosial-media a{color: #222F3C}
+.sosial-media .whatsapp:hover{color: #2bd149;}
+.sosial-media .facebook:hover{color: #1878f3;}
+.b .judul, .b .sub-judul,.b .deskripsi{text-align: center;}
+.skil .sub-judul{color: #f1f5f9}
+.skils {
+   max-width: 800px;
+   margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.skils img{width: 60px;margin: 1em;}
+.skil, footer{background-color: #0D1524;}
+.web{background-color: #1D222C;}
+.blog {
+   max-width: 800px;
+   margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.kartu{
+   width: 18em;
+   height: 25em;
+   background-color: #212A33;
+   margin: 1em auto;
+   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+   border-radius: 10px;
+   display: grid;
+   overflow: hidden;
+}
+.kartu .judul, .b .kartu .deskripsi, .pesan .form{text-align: left;}
+.kartu .judul{color: #C9D5E1;margin: 0 0 5px 0;}
+.kartu img{width: 300px;height: 180px;border-bottom: 1px solid #eaeaea;}
+.kartu a{color: #AFBBC7; text-decoration: underline;font-size: 14px;}
+.keterangan{padding: 1em;}
+.keterangan .paragraf{padding-bottom: 5px;}
+.pesan input, .pesan textarea{
+   width: 100%;
+   color: #94a3b6;
+   background-color: #343B48;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   padding: 1em;
+   margin: auto;
+}
+.pesan input{height: 3em;}
+.pesan textarea{height: 10em;}
+button{
+   width: 100%;
+   height: 3em;
+   background-color: #13B8A7;
+   border-radius: 2em;
+   border: none;
+   outline: none;
+   color:#fff;
+   margin: 1em auto;
+}
+.info{
+   border-bottom: 1px solid #2A364E;
+   padding: 6.5em 2em 2em 2em;
+}
+.info h1{color: #f1f5f9}
+.alamat, .kategori a, .copyright{color: #94A3B6;}
+.copyright{font-size: 1em;padding: 1em;text-align: center;}
+.copyright a{color: #13B8A7}
+@media screen and (min-width: 576px) {
+   .perkenalan, .pertama, .isi{display: flex;}
+   .kedua{display: none;}
+   .paragraf-1, .paragraf-2{width: 40vw;}
+   .isi{justify-content: space-between;}
+   .perkenalan{justify-content: space-around;}
+   .perkenalan img {width: 13em;}
+   .deskripsi{width: 50vw;margin: auto;}
+   .info{
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+   section{padding: 4.5em 2em 2em 2em;}
+   .inputan{width: 50vw;margin: auto;}
+}
