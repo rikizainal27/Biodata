@@ -5,13 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HTML</title>
+  <title>Portofolio | riki zainal</title>
   
   <!-- HTML -->
   
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,8 +32,8 @@
               <a href="#info" class="material-symbols-rounded icon">info</a>
            </div>
            <div class="nav-2">
-              <i class="material-icons dark">dark_mode</i>
-              <i class="material-icons t">settings</i>
+              <div class="mode"><i class="material-icons dark">dark_mode</i></div>
+              <i class="material-icons">arrow_drop_down</i>
            </div>
         </div>
         <div class="navigation kedua">
@@ -50,10 +56,10 @@
            <img src="img/riki.png" alt="riki">
         </section>
         <section class="tentang" id="tentang">
-           <h1 class="judul">Tentang Saya</h1>
+           <h2 class="judul">Tentang Saya</h2>
            <div class="isi">
               <div class="paragraf-1">
-                 <h1 class="sub-judul ">Yuk, Belajar mengaji<br>dari sekarang</h1>
+                 <h1 class="sub-judul ">Yuk, Belajar Programming<br>dari sekarang</h1>
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro vel iusto, inventore deleniti fuga blanditiis illum veniam nobis ipsa eum.</p>
               </div>
               <div class="paragraf-2">
@@ -69,23 +75,59 @@
            <a href="" class="material-icons">discord</a>
            <a href="" class="material-icons">telegram</a>
         </section>
-        <section class="skil b">
+        <section class="portofolio header" id="web">
+           <h1 class="judul">Portofolio</h1>
+           <h1 class="sub-judul">Project Terbaru</h1>
+           <p class="deskripsi">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores officiis fugiat molestiae odit placeat, non esse qui amet earum suscipit.</p>
+           <div class="projects">
+              <div class="project">
+                 <img src="/img/landing-page.png" alt="">
+                 <div class="penjelasan">
+                    <h1 class="judul ">Rikizainal's landing page</h1>
+                    <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo debitis sed odit consectetur aliquam magnam earum, minus, distinctio voluptas.</p>
+                 </div>
+              </div>
+              <div class="project">
+                 <img src="/img/landing-page.png" alt="">
+                 <div class="penjelasan">
+                    <h1 class="judul ">Galery</h1>
+                    <p class="paragraf">Dignissimos ut, laborum, vero sunt expedita sapiente ea vel quos inventore ad pariatur eveniet eaque iure. Nobis rem vitae doloremque.</p>
+                 </div>
+              </div>
+              <div class="project">
+                 <img src="/img/landing-page.png" alt="">
+                 <div class="penjelasan">
+                    <h1 class="judul ">Tutorial JavaScript</h1>
+                    <p class="paragraf">Laudantium natus odio ipsa aperiam, dignissimos autem amet placeat sed ut quaerat! Labore ipsum deserunt quia quasi distinctio natus provident.</p>
+                 </div>
+              </div>
+           </div>
+        </section>
+        <section class="skil header">
            <h1 class="judul">Skil</h1>
            <h1 class="sub-judul">Yang Telah<br>Dimiliki</h1>
            <p class="deskripsi ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laudantium nisi corporis, excepturi facilis totam consectetur doloribus libero a ut.</p>
            <div class="skils">
+              <figure>
                  <img src="img/html-5.png" alt="html">
+                 <figcaption>HTML</figcaption>
+              </figure>
+              <figure>
                  <img src="img/css-3.png" alt="css">
+                 <figcaption>CSS</figcaption>
+              </figure>
+              <figure>
                  <img src="img/js.png" alt="javascript">
-                 <img src="img/html-5.png" alt="react">
+                 <figcaption>JavaScript</figcaption>
+              </figure>
            </div>
         </section>
-        <section class="web b " id="web">
+        <section class="web header">
            <h1 class="judul">Blog</h1>
            <h1 class="sub-judul ">Tulisan Terkini</h1>
            <p class="deskripsi ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione facere, fugiat suscipit rem, alias perferendis. Vero, veritatis ipsum explicabo molestiae.</p>
            <div class="blog">
-              <div class="kartu ">
+              <div class="kartu">
                  <img src="/img/landing-page.png" alt="">
                  <div class="keterangan">
                     <h1 class="judul ">Games</h1>
@@ -93,7 +135,7 @@
                     <a href="index.html#web">Lihat selengkapnya</a>
                  </div>
               </div>
-              <div class="kartu ">
+              <div class="kartu">
                  <img src="/img/landing-page.png" alt="">
                  <div class="keterangan">
                     <h1 class="judul ">Galery</h1>
@@ -101,7 +143,7 @@
                     <a href="">Lihat selengkapnya</a>
                  </div>
               </div>
-              <div class="kartu ">
+              <div class="kartu">
                  <img src="/img/landing-page.png" alt="">
                  <div class="keterangan">
                     <h1 class="judul ">Tutorial JavaScript</h1>
@@ -112,24 +154,24 @@
            </div>
         </section>
         <section class="pesan" id="pesan">
-           <form class="b">
+           <form class="header">
               <h1 class="judul">Contact</h1>
               <h1 class="sub-judul ">Hubungi saya</h1>
               <p class="deskripsi ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos obcaecati error cumque dolore mollitia rem numquam dolorum eum animi modi.</p>
               <div class="inputan">
                  <div class="nama-lengkap">
                     <h1 class="judul form">Nama</h1>
-                    <input type="text" class="">
+                    <input type="text" name="nama">
                  </div>
                  <div class="email">
                     <h1 class="judul form">Email</h1>
-                    <input type="email">
+                    <input type="email" name="email">
                  </div>
                  <div class="kolom-pesan">
                     <h1 class="judul form">Pesan</h1>
                     <textarea></textarea>
                  </div>
-                 <button>Kirim</button>
+                 <button onclick="kirim()">Kirim</button>
               </div>
            </form>
         </section>

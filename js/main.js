@@ -3,20 +3,20 @@ const kedua = document.querySelector('.kedua')
 const icon = document.querySelectorAll('.material-symbols-rounded');
 const ic = pertama.querySelector('.material-symbols-rounded');
 const ico = kedua.querySelector('.material-symbols-rounded');
-const dark = document.querySelector('.nav-2');
+const dark1 = document.querySelector('.mode');
+const dark = document.querySelector('.dark');
 const link = document.querySelector('link');
-const light = document.querySelector('.light');
-const tombol = document.querySelector('.dark');
-const t = dark.querySelector('.t')
-dark.addEventListener('click', function(){
+dark1.addEventListener('click', function(){
+   if(dark.classList.contains('dark')){
    link.setAttribute('href', 'css/dark.css');
-   const light = document.createElement('i');
-   const text = document.createTextNode('light_mode');
-   light.classList.add('material-icons');
-   light.appendChild(text);
-   dark.appendChild(light);
-   tombol.remove(dark);
-   dark.insertBefore(light,t);
+   dark.innerHTML = 'light_mode';
+   dark.classList.replace('dark','light');
+   }
+   else{
+      link.setAttribute('href','css/style.css');
+      dark.innerHTML = 'dark_mode';
+      dark.classList.replace('light','dark');
+   }
 })
 ic.classList.replace('material-symbols-rounded', 'material-icons');
 ico.classList.replace('material-symbols-rounded', 'material-icons');
@@ -33,3 +33,7 @@ pil.addEventListener('click', function(e) {
    e.target.classList.add('active');
    e.target.classList.replace('material-symbols-rounded', 'material-icons')
 })})
+function kirim(){
+   const nilai = document.querySelector('input').value;
+   alert(nilai)
+}
