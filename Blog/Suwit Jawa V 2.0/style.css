@@ -1,0 +1,111 @@
+*,html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: all 150ms;
+  color: #343B48;
+  font-family: monospace;
+  }
+  body {
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   align-items: center;
+  background-color: #95A7BF;
+  }
+  h1 {
+  font-weight: bold;
+  /* background: linear-gradient(to right top,#10C4C9,#0aa5a9 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  */
+}
+.container {
+  width: 330px;
+  height: 350px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #C2CCE2;
+  overflow: hidden;
+  position: relative;
+}
+.area-komputer {
+  width: 100%;
+  height: 175px;
+  display: grid;
+  place-content: center;
+  background-color: #889FB8;
+}
+.info{
+  width: 110px;
+  height: 25px;
+  margin: 0px auto;
+  border-radius: 25px;
+  background-color: #343B48;
+  position: absolute;
+  top: 150px;
+  left: 110px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.pilihan-player{
+	width: 110px;
+  height: 25px;
+  margin: 0px auto;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 135px;
+  left: 110px;
+  line-height: 30px;
+}
+.area-player {
+  background-color: #889FB8;
+}
+.area-player ul {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.area-player ul li {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.tidak{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+}
+.container,.info,img,.skors,.skor-player,.skor-comp{
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, .7),-3px -3px 9px rgba(255, 255, 255, .7);
+}
+.skors{
+	width: 300px;
+	height: 150px;
+	margin: 20px auto;
+	background-color: #889FB8;
+	padding: .5em;
+	border-radius: 20px;
+}
+.skors h2 {
+	margin-bottom: 1em;
+}
+.skor-player,.skor-comp{
+	width: 90px;
+	height: 90px;
+	margin: 0px 15px;
+	font-size: 40px;
+	display: inline-block;
+	border-radius: 20px;
+	background-color: #A0B3C6;
+}

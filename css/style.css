@@ -10,7 +10,8 @@ nav{
    width: 100vw;
    position: fixed;
    top: 0;
-   background-color: #fff;box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0);
+   background-color: #fff;
+   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0);
    justify-content: space-between;
    align-items: center;
    overflow: hidden;
@@ -55,7 +56,7 @@ nav{
 .nama{color: #334155;font-size: 30px;font-family: 'Nunito Sans', sans-serif;}
 .nama span, blockquote span{color: #0aa5a9;font-family: inherit;}
 blockquote, p{color: #657487;padding-bottom: 2em;}
-section{padding: 6.5em 2em 2em 2em;}
+header,section{padding: 6.5em 2em 2em 2em;}
 .paragraf-1{margin-bottom: 25px;}
 .paragraf-1 .sub-judul{font-size: 30px;}
 .judul{
@@ -72,10 +73,9 @@ a{text-decoration: none;}
    margin: 1em auto;
    padding: 1em;
 }
-.sosial-media .material-icons{font-size: 40px;}
-.sosial-media a{color: #c9d5e1}
-.sosial-media .whatsapp:hover{color: #2bd149;}
-.sosial-media .facebook:hover{color: #1878f3;}
+.sosial-media img{width: 40px;filter: grayscale(100%)}
+.sosial-media a{border-radius: 50%}
+.sosial-media a:hover img{filter: grayscale(0%)}
 .header .judul, .header .sub-judul,.header .deskripsi{text-align: center;}
 .projects {
    max-width: 800px;
@@ -92,6 +92,7 @@ a{text-decoration: none;}
    overflow: hidden;
 }
 .project .judul, .project .deskripsi{text-align: left;}
+.penjelasan .paragraf{font-size: 12px;}
 .project .judul{color: black;margin-bottom: 10px;}
 .project img{
    width: 260px;
@@ -106,8 +107,8 @@ a{text-decoration: none;}
    flex-wrap: wrap;
    justify-content: center;
 }
-.skils figure{text-align: center;color: #C9D5E1;}
-.skils img{width: 60px;margin: 1em;filter: grayscale(100%)}
+.skils figure{text-align: center;color: #C9D5E1;margin: 1em;}
+.skils img{width: 60px;filter: grayscale(100%);}
 .skils img:hover{filter: grayscale(0%)}
 .skil, footer{background-color: #0F172A;}
 .portofolio, .web{background-color: #f1f5f9;}
